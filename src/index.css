@@ -5,9 +5,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white ; 
+  outline:0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.todo-container{
+  background-color: palevioletred;
+}
+
+.todo-btn {
+  background-color: rgba(238, 224, 224, 0.582);
+  border: 2px solid white ;
+  font-weight: bold;
+  color: white ; 
+  border-radius: 10px;
+}
+.todo-btn:hover {
+  color:gray;
+}
+
+
+.td {
+  background-color:rgba(248, 248, 248, 0.534); 
+}
+
+.p-div {
+  width: 60%;
+  padding: 15px 10px;
+  text-align: center;
+  white-space: pre-wrap; 
+  text-align: justify;
+}
+
+.p-div textarea {
+  border: 1px solid white ; 
+  width: 80%;
+  padding: 15px 10px;
+}
+
+.p-div textarea::-moz-focus-outer{
+  border: 2px solid red;
+}
+
